@@ -1,0 +1,35 @@
+// NAVBAR
+
+.navbar {
+  background-color: $navbar-color !important;
+
+  color: white;
+  margin-top: 0; //1rem;
+
+  padding: 0;
+  padding-right: 1rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.24);
+
+  // display: block;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // z-index: 5;
+
+  .navbar-brand {
+    font-size: 20px;
+    margin: 1rem;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+  }
+
+  .nav-link.dropdown-toggle {
+    color: white;
+    text-transform: none;
+  }
+}

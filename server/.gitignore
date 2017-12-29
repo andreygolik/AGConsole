@@ -1,0 +1,15 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# logs
+/logs/*log
+
+/config
+/public/styles/*.css
+/public/styles/*.css.map
+

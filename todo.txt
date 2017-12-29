@@ -1,0 +1,4 @@
+-- server: authentication tests
+-- server: user schema - default values do not work
+
+-- client: users management page

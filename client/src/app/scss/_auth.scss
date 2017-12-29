@@ -1,0 +1,62 @@
+// AUTH
+
+.auth-page {
+  .auth-heading {
+    text-align: center;
+    margin: 1.5rem 0 0 0;
+  }
+
+  .auth-content {
+    max-width: 384px;
+    margin: 0 auto;
+
+    .card {
+      border: none;
+    }
+
+    .card-block {
+      padding: 1rem 2rem 1.5rem 2rem;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    a.btn:focus {
+      color: white;
+    }
+
+    form {
+      margin-bottom: 1rem;
+
+      .help-block {
+        color: #edb338;
+        font-size: 0.8rem;
+      }
+
+      .form-control.auth-bad-field {
+        border: 1px solid #dd4b39;
+      }
+    }
+
+    form.auth-error {
+      .form-control {
+        border: 1px solid #dd4b39;
+      }
+    }
+
+    #auth-error-message {
+      color: #dd4b39;
+      margin-bottom: 1rem;
+      line-height: 1rem;
+    }
+
+    #auth-forgot-password-message {
+      text-align: center;
+    }
+  }
+
+  .auth-context-switch {
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+// FOOTER
+
+footer {
+  display: block;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: 0;
+  padding: 10px 15px;
+
+  background-color: $footer-color;
+  color: $footer-text-color;
+
+  flood-opacity: 0;
+
+  font-size: 0.8rem;
+  font-weight: 300;
+}

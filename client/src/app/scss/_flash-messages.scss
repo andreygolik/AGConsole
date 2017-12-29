@@ -1,0 +1,39 @@
+// FLASH MESSAGES
+
+.flash-messages-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 384px;
+  margin: 0 auto;
+  z-index: 10000;
+}
+
+.flash-message {
+  z-index: 10000;
+  position: relative;
+}
+
+.flash-message.alert {
+  display: block;
+
+  padding: .75rem 1.25rem;
+  border: 1px solid transparent;
+
+  // max-width: 384px;
+  margin: 3px auto;
+
+  // font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  text-align: center;
+
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

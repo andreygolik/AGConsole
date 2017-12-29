@@ -1,0 +1,41 @@
+{
+  "name": "agconsole-server",
+  "version": "1.0.0",
+  "author": "Andrey Golik",
+  "license": "MIT",
+  "private": false,
+  "description": "AGConsole RestAPI Server with NodeJS and Express",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --recursive --reporter spec --exit test/*.test.js",
+    "lint": "eslint **/*.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.6",
+    "mongoose-unique-validator": "^1.0.6",
+    "morgan": "^1.9.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemailer": "^4.4.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0",
+    "rand-token": "^0.4.0",
+    "serve-favicon": "^2.4.5",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.4",
+    "eslint": "^4.12.1",
+    "eslint-plugin-security": "^1.4.0",
+    "mocha": "^4.0.1"
+  }
+}
