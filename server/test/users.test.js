@@ -645,7 +645,7 @@ describe('API endpoint /users', function () {
 
     it('should return 404 for bad user id', function (done) {
       chai.request(app)
-        .delete(`/api/users/12345`)
+        .delete('/api/users/12345')
         .set('Authorization', tokens.admin)
         .send({})
         .end(function (err, res) {
